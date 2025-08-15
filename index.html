@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Campeões por Rota</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="Header-Title">
+        <h1>Campeões por Rota</h1>
+    </header>
+    <main class="container">
+        <div>
+            <input type="text" id="searchInput" placeholder="Pesquisar campeões...">
+        </div>
+        <div class="Bottons-Options">
+            <button class="Button-Option" id="assassins" onclick="callchampions('assassin')">Assassinos</button>
+            <button class="Button-Option" id="fighters" onclick="callchampions('fighter')">Lutadores</button>
+            <button class="Button-Option" id="mages" onclick="callchampions('mage')">Magos</button>
+            <button class="Button-Option" id="marksmen" onclick="callchampions('marksman')">Atiradores</button>
+            <button class="Button-Option" id="supports" onclick="callchampions('support')">Suportes</button>
+            <button class="Button-Option" id="tanks" onclick="callchampions('tank')">Tanques</button>
+            
+        </div>
+        <div class="img-champions">
+            <img src="" alt="">
+            
+        </div>
+    </main>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="index.js"></script>        
+</body>
+</html> 
