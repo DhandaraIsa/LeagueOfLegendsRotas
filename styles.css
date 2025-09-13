@@ -1,9 +1,70 @@
 .Header-Title {
-    background-color: #333;
+    background-color:rgb(60, 0, 128);
     color: white;
     padding: 10px 0;
     text-align: center;
-
 }    
    
+.container {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background: url(bg.jpg) no-repeat center/100%;
+    object-fit: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.searchInput {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    background: #1c1c1c;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.Bottons-Options {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.card-champions{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 40px 40px 0px 40px ;
+    justify-content: space-around;
+    
+}
+
+.card-champions .card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card-champions .card:hover {
+    transform: scale(1.05);
+}
+
+.route-buttons {
+     margin-bottom: 16px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;    /* Sugestão para melhorar visualmente */
+   
+
+}
 
